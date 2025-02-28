@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnMaior = new Button();
+            btnMaiorMenor = new Button();
             lblNum3 = new Label();
             lblNum2 = new Label();
             lblNum1 = new Label();
@@ -37,19 +37,20 @@
             txtNum1 = new TextBox();
             SuspendLayout();
             // 
-            // btnMaior
+            // btnMaiorMenor
             // 
-            btnMaior.Location = new Point(185, 209);
-            btnMaior.Name = "btnMaior";
-            btnMaior.Size = new Size(99, 23);
-            btnMaior.TabIndex = 13;
-            btnMaior.Text = "Mostrar Maior";
-            btnMaior.UseVisualStyleBackColor = true;
+            btnMaiorMenor.Location = new Point(127, 228);
+            btnMaiorMenor.Name = "btnMaiorMenor";
+            btnMaiorMenor.Size = new Size(145, 23);
+            btnMaiorMenor.TabIndex = 13;
+            btnMaiorMenor.Text = "Mostrar Maior e Menor";
+            btnMaiorMenor.UseVisualStyleBackColor = true;
+            btnMaiorMenor.Click += btnMaiorMenor_Click;
             // 
             // lblNum3
             // 
             lblNum3.AutoSize = true;
-            lblNum3.Location = new Point(86, 144);
+            lblNum3.Location = new Point(86, 139);
             lblNum3.Name = "lblNum3";
             lblNum3.Size = new Size(60, 15);
             lblNum3.TabIndex = 12;
@@ -98,8 +99,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(371, 247);
-            Controls.Add(btnMaior);
+            ClientSize = new Size(411, 320);
+            Controls.Add(btnMaiorMenor);
             Controls.Add(lblNum3);
             Controls.Add(lblNum2);
             Controls.Add(lblNum1);
@@ -114,7 +115,7 @@
 
         #endregion
 
-        private Button btnMaior;
+        private Button btnMaiorMenor;
         private Label lblNum3;
         private Label lblNum2;
         private Label lblNum1;
