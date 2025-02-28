@@ -14,10 +14,10 @@ namespace CEx5
             int num3 = int.Parse(Console.ReadLine()!);
 
             int maior = Math.Max(num1, num2);
-            maior = Math.Max(maior, num3);
+            maior = Math.Max(num3, maior);
 
             int menor = Math.Min(num1, num2);
-            maior = Math.Min(maior, num3);
+            menor = Math.Min(num3, menor);
 
 
             Console.WriteLine($"\nO numero {maior} é o maior valor!");
