@@ -58,6 +58,7 @@
             txtquanthoras.Name = "txtquanthoras";
             txtquanthoras.Size = new Size(100, 23);
             txtquanthoras.TabIndex = 2;
+            txtquanthoras.TextChanged += txtquanthoras_TextChanged;
             // 
             // lblnome1
             // 
