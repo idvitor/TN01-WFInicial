@@ -35,6 +35,7 @@
             btnEx5 = new Button();
             btnEx6 = new Button();
             btnEx7 = new Button();
+            btnex8 = new Button();
             SuspendLayout();
             // 
             // btnEx1
@@ -107,11 +108,22 @@
             btnEx7.UseVisualStyleBackColor = true;
             btnEx7.Click += btnEx7_Click;
             // 
+            // btnex8
+            // 
+            btnex8.Location = new Point(129, 89);
+            btnex8.Name = "btnex8";
+            btnex8.Size = new Size(75, 23);
+            btnex8.TabIndex = 7;
+            btnex8.Text = "Exercicio 8";
+            btnex8.UseVisualStyleBackColor = true;
+            btnex8.Click += btnex8_Click;
+            // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(617, 208);
+            Controls.Add(btnex8);
             Controls.Add(btnEx7);
             Controls.Add(btnEx6);
             Controls.Add(btnEx5);
@@ -133,5 +145,6 @@
         private Button btnEx5;
         private Button btnEx6;
         private Button btnEx7;
+        private Button btnex8;
     }
 }

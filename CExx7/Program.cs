@@ -1,4 +1,4 @@
-﻿namespace CEx7
+﻿namespace CExx7
 {
     internal class Program
     {
