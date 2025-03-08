@@ -77,5 +77,11 @@ namespace WFInicial
             FormEx10 form = new FormEx10();
             form.ShowDialog();
         }
+
+        private void btn11_Click(object sender, EventArgs e)
+        {
+            FormEx11 form = new FormEx11();
+            form.ShowDialog();
+        }
     }
 }
