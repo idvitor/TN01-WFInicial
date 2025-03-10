@@ -160,6 +160,7 @@
             btn12.TabIndex = 11;
             btn12.Text = "Exercicio 12";
             btn12.UseVisualStyleBackColor = true;
+            btn12.Click += btn12_Click;
             // 
             // FormMenu
             // 
